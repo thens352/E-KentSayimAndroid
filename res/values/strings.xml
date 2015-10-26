@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">E-Kent Sayım</string>
+    <string name="action_settings">Design By Cava Bilişim</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+  
+    <string-array name="nav_drawer_items">
+        <item >Ana Sayfa</item>
+        <item >Validatör Otobüs</item>
+        <item >Validatör Turnike</item>
+        <item >Kiosk</item>
+        <item >Araç İçi Ekran</item>
+        <item >Kamera</item>
+        <item >Kamera NVR</item>
+        <item >Kamera Güç Ünitesi</item>
+        <item >Kamera Switch</item>
+        <item >Güzergah Panosu</item>	
+        <item >Araç Takip Sistemi</item>
+        <item >Akıllı Durak</item>
+        <item >Parkomat(Iprox)</item>
+        <item >Müfettiş El Terminali</item>
+        <item >Turnike</item>
+        <item >Pos</item>
+        <item >Ups</item>
+        <item >Ups-Resim</item>
+        <item >Sunucu</item>
+        <item >Lcd</item>
+        <item >Kabinet</item>
+        <item >Network Switch</item>
+        <item >Network Router</item>
+        <item >Network Modem</item>
+        <item >Printer-Scanner-Kart</item>
+        <item >Notebook-Masaüstü Pc</item>
+        <item >Cep Telefonu</item>
+        <item >Masa-Sandalye-Dolap</item>
+        <item >Masa Telefonu</item>
+        <item >Telefon Santrali</item>
+        <item >CCTV</item>
+        <item >PDKS</item>
+    </string-array>
+    
+    <array name="nav_drawer_icons">
+        <item>@drawable/home</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+    </array>
+    
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

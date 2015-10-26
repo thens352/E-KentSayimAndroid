@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/cihazSeriNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/barkod"
+        android:layout_alignBottom="@+id/barkod"
+        android:layout_toRightOf="@+id/barkod"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/durum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cihazSeriNo"
+        android:layout_alignBottom="@+id/cihazSeriNo"
+        android:layout_toRightOf="@+id/cihazSeriNo"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/marka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/durum"
+        android:layout_alignBottom="@+id/durum"
+        android:layout_toRightOf="@+id/durum"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/marka"
+        android:layout_alignBottom="@+id/marka"
+        android:layout_toRightOf="@+id/marka"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/termID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/model"
+        android:layout_alignBottom="@+id/model"
+        android:layout_toRightOf="@+id/model"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/durakAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/termID"
+        android:layout_alignBottom="@+id/termID"
+        android:layout_toRightOf="@+id/termID"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/durakAdi"
+        android:layout_alignBottom="@+id/durakAdi"
+        android:layout_toRightOf="@+id/durakAdi"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/barkod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="31dp"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
